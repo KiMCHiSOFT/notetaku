@@ -65,13 +65,30 @@ data is stored at:
 
 ## roadmap
 
+### in progress
+- [ ] onboarding - guided task-based tutorial that teaches features by doing, earn a "pro" badge
 - [ ] linux and macos builds
+
+### planned
 - [ ] note version history
 - [ ] kanban board view
 - [ ] pdf export
+- [ ] workspace backup and restore
 - [ ] mobile companion app (android/ios)
-- [ ] workspace backup/restore
 - [ ] plugin system
+
+### recently shipped
+- [x] inline font size controls (v0.4.1)
+- [x] right-click context menu with delete, archive, share (v0.4.1)
+- [x] note pinning, sorting, templates, duplicate, word count (v0.4.0)
+- [x] in-app auto-updates (v0.4.0)
+- [x] vault encryption with AES-256-GCM (v0.3.0)
+- [x] session capture (v0.2.0)
+- [x] wiki-links and backlinks (v0.2.0)
+- [x] notebooks with color coding (v0.2.0)
+- [x] full-text search (v0.1.0)
+- [x] sticky notes (v0.3.0)
+- [x] peer-to-peer note sharing (v0.3.0)
 
 ## support
 
