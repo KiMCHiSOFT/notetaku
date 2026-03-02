@@ -1,7 +1,7 @@
 <div align="center">
   <img src="notetaku-logo.png" alt="notetaku" width="128" />
   <h1>notetaku</h1>
-  <p><strong>notes that write themselves while you work</strong></p>
+  <p><strong>organize your life with notes, without the bloat</strong></p>
   <p>a fast, private, offline-first note-taking app built with Tauri</p>
 </div>
 
