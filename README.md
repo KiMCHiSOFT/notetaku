@@ -2,7 +2,7 @@
   <img src="notetaku-logo.png" alt="notetaku" width="128" />
   <h1>notetaku</h1>
   <p><strong>organize your life with notes, without the bloat</strong></p>
-  <p>a fast, private, offline-first note-taking app built with Tauri</p>
+  <p>a fast, private, offline-first note-taking app</p>
 </div>
 
 ---
@@ -10,14 +10,14 @@
 ## features
 
 - **markdown editor** - full markdown support with live preview, toolbar, and keyboard shortcuts
+- **inline font size** - select text and resize with up/down buttons or type a specific size
 - **session capture** - start a work session and log entries as you go, timestamped and organized
 - **notebooks** - organize notes into color-coded notebooks
-- **wiki-links** - link notes together with `[[wiki-links]]` and view backlinks
 - **full-text search** - instant search across all notes powered by SQLite FTS5
 - **tags** - tag notes and filter by tag
-- **calendar view** - browse notes by date
+- **calendar view** - browse notes by date with quick notes for fast one-liner entries
 - **templates** - create reusable note templates
-- **sticky notes** - pop out notes as floating sticky windows
+- **sticky notes** - pop out notes as floating sticky windows with adjustable font size
 - **attachments** - attach files to notes with drag-and-drop
 - **vault encryption** - encrypt your workspace with AES-256-GCM + Argon2id
 - **real-time collaboration** - peer-to-peer note sharing over local network
@@ -41,10 +41,11 @@ notetaku is closed source. prebuilt installers are available on the [releases](h
 
 1. **create a workspace** - on first launch, a default workspace is created automatically
 2. **write notes** - click the + button or press `Ctrl+N` to create a new note
-3. **organize** - create notebooks, add tags, and use wiki-links to connect ideas
+3. **organize** - create notebooks, add tags, and pin important notes to the top
 4. **sessions** - press `Ctrl+Shift+S` to start a work session and capture timestamped entries
 5. **search** - press `Ctrl+K` to open the command palette, or use the search view
 6. **sticky notes** - right-click a note and select "sticky" to pop it out as a floating window
+7. **calendar** - switch to calendar view to browse notes by date, right-click a day to add a quick note
 
 ## keyboard shortcuts
 
@@ -78,13 +79,15 @@ data is stored at:
 - [ ] plugin system
 
 ### recently shipped
+- [x] calendar quick notes - right-click to add one-liners, convert to full notes (v0.4.2)
+- [x] notes panel visible in calendar view (v0.4.2)
+- [x] sticky note font size controls (v0.4.2)
 - [x] inline font size controls (v0.4.1)
 - [x] right-click context menu with delete, archive, share (v0.4.1)
 - [x] note pinning, sorting, templates, duplicate, word count (v0.4.0)
 - [x] in-app auto-updates (v0.4.0)
 - [x] vault encryption with AES-256-GCM (v0.3.0)
 - [x] session capture (v0.2.0)
-- [x] wiki-links and backlinks (v0.2.0)
 - [x] notebooks with color coding (v0.2.0)
 - [x] full-text search (v0.1.0)
 - [x] sticky notes (v0.3.0)
